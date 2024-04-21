@@ -1,0 +1,1903 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+
+html{
+    background: rgb(240,243,245);
+    background: linear-gradient(90deg, rgba(240,243,245,1) 0%, rgba(230,235,240,1) 100%);
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .container .portal .portal-click{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 800;
+ 
+
+}
+
+.header .container .portal a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.header .container .iocnki .icci .fa-magnifying-glass{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-magnifying-glass{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .iocnki .icci{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+   
+}
+.header .container .iocnki .icci .fa-cart-shopping{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-cart-shopping{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .iocnki .icci .fa-house{
+    color: black;
+    width: 17px;
+    height: 16px;
+    transition: .5s;
+}
+.header .container .iocnki .icci:hover .fa-house{
+    color: #3586ff;
+    transition: .3s;
+    
+}
+.header .container .iocnki{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+
+
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
+
+.vibing .container{
+    display: flex;
+}
+.vibing .container .fitnes .fitness-platform{
+    font-family:'Manrope';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+.vibing .container .fitnes .gro{
+    font-family:'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+   
+}
+
+
+.vibing .container .fitnes .choice{
+    width: 250px;
+    height: 60px;
+    background: none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+}
+.vibing .container .fitnes .choice:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.vibing .container .woman{
+    width: 612px;
+    height: 500px;
+    background: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.maygad{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.maygad .container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.maygad .container .vibinar{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+}
+
+.maygad .container .vibing{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+
+.maygad .container .vibing .frst{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .frst:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+
+
+
+.maygad .container .vibing .frst .woman-yo{
+    background: url(../img/2.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.maygad .container .vibing .frst .yo{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.maygad .container .vibing .scnd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .scnd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.maygad .container .vibing .scnd .woman-ras{
+    background: url(../img/3.png);
+    width: 238px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.maygad .container .vibing .scnd .ras{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maygad .container .vibing .thd{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.maygad .container .vibing .thd:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    scale: 1.1;
+    transition: .3s;
+}
+.maygad .container .vibing .thd .woman-hiit{
+    background: url(../img/4.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.maygad .container .vibing .thd .hiit{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.maygad .container .btn .all{
+    width: 252px;
+    height: 58px;
+    background:none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 75px;
+}
+.maygad .container .btn .all:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.maygad .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fresh .container .freshtry{
+    width: 100%;
+    height: 492px;
+    border-radius: 20px;
+    background: url(../img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.fresh .container .freshtry .text{
+    padding-left: 100px;
+    padding-top: 155px;
+}
+
+.fresh .container .freshtry .text .freshtrytxt{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.fresh .container .freshtry .text .watch{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.fresh .container .freshtry .text .btntry{
+    width: 252px;
+    height: 58px;
+    background-color: #3586ff;
+    font-family: 'Manrope';
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #3586ff;
+    border-radius: 9px;
+    transition: .5s;
+
+}
+.fresh .container .freshtry .text .btntry:hover{
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+.tred{
+    margin-top: 160px;
+}
+.tred .container{
+    display: flex;
+    flex-direction: column;
+}
+.tred .container .parts1{
+    display: flex;
+    justify-content: space-between;
+}
+.tred .container .parts1 .woman{
+    width: 560px;
+    height: 344px;
+    border-radius: 15px;
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tred .container .parts1 .troy{
+    display: flex;
+    flex-direction: column;
+}
+.tred .container .parts1 .troy .onkr{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tred .container .parts1 .troy .ras{
+    font-family: "Manrope";
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tred .container .parts1 .troy .classic{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.tred .container .parts1 .troy .data{
+    display: flex;
+    justify-content: space-between;
+}
+.tred .container .parts1 .troy .data .high{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.tred .container .parts1 .troy .data .high h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tred .container .parts1 .troy .data .high .start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tred .container .parts1 .troy .data .high .start i{
+    height: 16px;
+    width: 16px;
+}
+.tred .container .parts1 .troy .data .high .start h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.tred .container .parts1 .troy .data .datefok{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.tred .container .parts1 .troy .data .datefok .week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tred .container .parts1 .troy .data .datefok .week i{
+    width: 16px; 
+    height: 16px;
+}
+.tred .container .parts1 .troy .data .datefok .week h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.tred .container .parts1 .troy .data .datefok .trener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tred .container .parts1 .troy .data .datefok .trener i{
+    width: 16px; 
+    height: 16px;
+}
+.tred .container .parts1 .troy .data .datefok .trener h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.tred .container .parts1 .troy .cis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    align-items: center;
+}
+.tred .container .parts1 .troy .cis h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tred .container .parts1 .troy .cis .buy{
+    width: 252px;
+    height: 58px;
+    background: none;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family:'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 9px;
+    transition: .5s;
+}
+
+.tred .container .parts1 .troy .cis .buy:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+
+.tred .container .parts2 .infofit .pepa{
+    width: 100%;
+    overflow: hidden;
+
+}
+.tred .container .parts2 .infofit .pepa .line{
+    width: 300%;
+    display: flex;
+    
+    
+    
+}
+.tred .container .parts2 .infofit .pepa .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    
+}
+.tred .container .parts2 .infofit .pepa .line .text .photos{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+    
+}
+
+#input1:checked ~ .pepa .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .pepa .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .pepa .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ .pepa .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .pepa .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .pepa .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color: #3586ff;
+    color: white;
+    transition: .3s;
+}
+.tred .container .parts2{
+    margin-top: 60px;
+}
+.tred .container .parts2 .infofit input{
+    display: none;
+}
+
+.tred .container .parts2 .infofit label{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    transition: .5s;
+    margin-right: 40px;
+}
+
+.tred .container .parts2 .infofit .pepa{
+    margin-top: 40px;
+}
+.tred .container .parts2 .infofit .pepa .line .text h3{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+}
+.tred .container .parts2 .infofit .pepa .line .photos h2{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.tred .container .parts2 .infofit .pepa .line .photos h4{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss{
+    width: 260px;
+    height: 274px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .frst{
+    background: url(../img/7.png);
+    width: 109px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .scnd{
+    background: url(../img/8.png);
+    width: 164px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .thd{
+    background: url(../img/9.png);
+    width: 196px;
+    height: 190px;
+}
+
+.tred .container .parts2 .infofit .pepa .line .text1{
+    opacity: 0;
+    transition: .5s;
+}
+.tred .container .parts2 .infofit .pepa .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+.tred .container .parts2 .infofit .pepa .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .frst1{
+    background: url(../img/гантели.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .scnd1{
+    background: url(../img/велдо.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .thd1{
+    background: url(../img/бокс.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .frst2{
+    background: url(../img/качество.png);
+    background-size: cover;
+    background-position: center;
+    width: 196px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .scnd2{
+    background: url(../img/прогресс.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+.tred .container .parts2 .infofit .pepa .line .photos .photoss .thd2{
+    background: url(../img/img_203330.png);
+    background-size: cover;
+    background-position: center;
+    width: 186px;
+    height: 190px;
+}
+
+.babytab{
+    background-color: #f1f4f8;
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.babytab .container{
+    display: flex;
+    justify-content: space-between;
+}
+.babytab .container .bebebebebe h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.babytab .container .bebebebebe h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+}
+.babytab .container .bebebebebe .more{
+    width: 252px;
+    height: 58px;
+    background-color: #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #3586ff;
+    border-radius: 9px;
+    transition: .5s;
+    margin-top: 60px;
+}
+.babytab .container .bebebebebe .more:hover{
+    background-color: #3586ff;
+    color: white;
+    -webkit-box-shadow: 0px 5px 10px 2px #3586ff;
+    -moz-box-shadow: 0px 5px 10px 2px #3586ff;
+    box-shadow: 0px 5px 10px 2px #3586ff;
+    transition: .3s;
+}
+.babytab .container .bay{
+    display: flex;
+   
+}
+.babytab .container .bay .womanbabytab{
+    margin-top: 40px;
+    background: url(../img/10.jpg);
+    width: 560px;
+    height: 402px;
+    border-radius: 25px;
+}
+
+.nomer{
+    margin-top: 150px;
+}
+.nomer .container{
+    display: flex;
+    flex-direction: column;
+}
+.nomer .container .big{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.nomer .container .robot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomer .container .robot .n1 h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3586ff;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    width: 60px;
+    text-align: center;
+}
+.nomer .container .robot .n1 h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.nomer .container .robot .n1 h4{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.resepshen{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.resepshen .container{
+    background: rgb(230,235,240);
+    background: linear-gradient(90deg, rgba(230,235,240,1) 0%, rgba(240,243,245,1) 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.resepshen .container .resepshen1{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.resepshen .container .opisanie{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.resepshen .container .naminal{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/2.2);
+    margin-bottom: 15px;
+}
+.resepshen .container .naminal h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resepshen .container .naminal input{
+    width: 250px;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.resepshen .container .em{
+    width: calc(100%/2.2);
+}
+.resepshen .container .em .mail{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resepshen .container .em input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.resepshen .container .our{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: calc(100%/2.2);
+    margin-top: 25px;
+}
+.resepshen .container .check{
+    display: flex;
+    width: calc(100%/2.2);
+    margin-bottom: 30px;
+    align-items: center;
+}
+.resepshen .container .check label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.resepshen .container .check input{
+    margin-left: 0;
+    margin-right: 0;
+    height: 15px;
+    width: 15px;
+}
+.resepshen .container .check .frst{
+    display: flex;
+    align-items: center;
+}
+
+.resepshen .container .check .scnd{
+    display: flex;
+    align-items: center;
+    
+}
+.resepshen .container .check .thd{
+    display: flex;
+    align-items: center;
+}
+
+.resepshen .container .agree{
+    width: calc(100%/2.2);
+}
+.resepshen .container .agree input{
+    margin-left: 0;
+    height: 15px;
+    width: 15px;
+}
+.resepshen .container .agree label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.resepshen .container .agree{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.resepshen .container .continue{
+    width: 252px;
+    height: 58px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 9px;
+    transition: .5s;
+}
+.resepshen .container .continue:hover{
+    background-color: #3586ff;
+    color: white;
+    transition: .5s;
+}
+.konets{
+    margin-bottom: 60px;
+}
+.konets .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.konets .container .pravo na slovo h3{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+}
+.konets .container .soglasie{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/9.2);
+    align-items: center;
+}
+.konets .container .politica{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.konets .container .politica a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .konets .container{
+        width: 95%;
+    }
+    .resepshen .container{
+        width: 95%;
+    }
+    .resepshen .container .naminal{
+        width: calc(100%/1.7);
+    }
+    .resepshen .container .em{
+        width: calc(100%/1.7) !important;
+    }
+    .resepshen .container .our{
+        width: calc(100%/1.7) !important;
+    }
+    .resepshen .container .check{
+        width: calc(100%/1.7) !important;
+    }
+    .resepshen .container .agree{
+        width: calc(100%/1.7) !important;
+    }
+    .resepshen{
+        margin-top: 50px;
+    }
+    .nomer {
+        margin-top: 50px;
+    }
+    .nomer .container .robot{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .nomer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .babytab .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .babytab .container .bebebebebe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .babytab .container .bebebebebe h3{
+        text-align: center;
+    }
+    .babytab{
+        padding-top: 50px;
+    }
+    .tred .container .parts1 .woman{
+        width: 360px;
+    }
+    .tred .container .parts1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tred .container .parts2 .pepa .line .text .photos .photoss{
+        width: 220px;
+    }
+    .tred .container .parts2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .tred .container .parts2 .pepa .line .text h3{
+        width: calc(100%/4);
+        margin-right: 10px;
+    }
+    .fresh .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fresh .container .freshtry .text{
+        padding-left: 30px;
+    }
+    .maygad .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .maygad{
+        margin-top: 50px;
+    }
+    .maygad .container .vibing{
+        margin-top: 30px;
+    }
+    .maygad .container .vibing .frst,
+    .maygad .container .vibing .scnd,
+    .maygad .container .vibing .thd{
+        width: 300px !important;
+    }
+    .vibing .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vibing .container .fitnes .fitness-platform{
+        margin-top: 0;
+        text-align: center;
+    }
+    .vibing .container .fitnes .gro{
+        text-align: center;
+    }
+    .vibing .container .fitnes a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .vibing .container .woman{
+        margin-top: 70px;
+    }
+    .header .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header .container .iocnki{
+        width: calc(100%/7.3);
+    }
+    .header .container .portal .portal-click{
+        margin-right: 40px;
+    }
+    .header .container .portal .portal-click:nth-child(1){
+        margin-left: 25px;
+    }
+    .header .container .portal .portal-click:nth-child(5){
+        margin-right: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .resepshen .container .naminal{
+        width: calc(100%/1.3);
+    }
+    .resepshen .container .em{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .our{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .check{
+        width: calc(100%/1.3) !important;
+    }
+    .resepshen .container .agree{
+        width: calc(100%/1.3) !important;
+    }
+    .nomer .container .robot{
+        width: 70%;
+    }
+    .tred .container .parts1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tred .container .parts1 .woman{
+        margin-bottom: 30px;
+        width: 560px;
+    }
+    .tred .container .parts2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tred .container .parts2 .infofit label{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .tred .container .parts2 .infofit .pepa .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos{
+        width: 100%;
+    }
+
+    .maygad .container .vibing{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .maygad .container .vibing .frst{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .maygad .container .vibing .scnd{
+        margin-left: 10px;
+    }
+    .header .container .portal a{
+        margin-right: 10px !important;
+    }
+    .header .container .iocnki{
+        width: calc(100%/6);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    .konets .container .soglasie {
+        width: calc(100%/7);
+    }
+    .resepshen .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .resepshen .container .resepshen1{
+        text-align: center;
+        line-height: 40px;
+    }
+    .resepshen .container .opisanie{
+        text-align: center;
+        font-size: 16px;
+    }
+    .resepshen .container .naminal{
+        width: calc(100%/1.08);
+    }
+    .resepshen .container .em{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .our{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .check{
+        width: calc(100%/1.08) !important;  
+    }
+    .resepshen .container .agree{
+        width: calc(100%/1.08) !important;  
+    }
+    .nomer .container .robot{
+        width: 90%;
+    }
+    .tred .container .parts2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tred .container .parts2 .infofit label{
+        margin-right: 0px;
+        
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .tred .container .parts2 .infofit .pepa .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .babytab{
+        margin-top: 50px;
+    }
+    .fresh .container .freshtry .text{
+        width: calc(100%/2.2);
+        padding-top: 50px;
+    }
+    .maygad .container .vibing .frst{
+        margin-right: 0;
+    }
+    .maygad .container .vibing .scnd{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .vibing .container .woman{
+        width: 512px;
+        height: 430px;
+    }
+    .header .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header .container .iocnki a{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .container .iocnki .icci .fa-magnifying-glass{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .iocnki .icci .fa-cart-shopping{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .iocnki .icci .fa-house{
+        height: 15px !important;
+        width: 16px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .vibing .container .woman{
+        width: 450px;
+        height: 380px;
+    }
+    .header .container .logotype img{
+        width: 84px;
+        height: 15px;
+    }
+    .header .container .portal .portal-click{
+        font-size: 12px;
+    }
+    .header .container .portal .portal-click:nth-child(1){
+        margin-left: 0;
+    }
+    .header .container .portal .portal-click:nth-child(5){
+        margin-right: 0 !important;
+    }
+    .header .container .iocnki a{
+        height: 20px;
+        width: 20px;
+    }
+    .header .container .iocnki .icci .fa-magnifying-glass{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .iocnki .icci .fa-cart-shopping{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .iocnki .icci .fa-house{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container{
+        margin-bottom: 50px;
+    }
+    .vibing .container .fitnes .fitness-platform{
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .vibing .container .fitnes .gro{
+        font-size: 16px;
+    }
+    .vibing .container .fitnes .choice{
+        width: 230px;
+        height: 50px;
+    }
+    .maygad .container .vibinar{
+        font-size: 32px;
+    }
+   
+    .maygad .container .vibing .frst{
+        width: 200px !important;
+        height: 240px !important;
+        margin-right: 10px;
+    }
+    .maygad .container .vibing .frst .woman-yo{
+        height: 181px !important;
+        width: 142px;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .frst .yo{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .maygad .container .vibing .scnd{
+        width: 200px !important;
+        height: 240px !important;
+        margin-left: 10px;
+    }
+    .maygad .container .vibing .scnd .woman-ras{
+        width: 172px !important;
+        height: 171px !important;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .scnd .ras{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .maygad .container .vibing .thd{
+        width: 200px !important;
+        height: 240px !important;
+    }
+    .maygad .container .vibing .thd .woman-hiit{
+        width: 152px !important;
+        height: 197px !important;
+        margin-top: 0;
+    }
+    .maygad .container .vibing .thd .hiit{
+        font-size: 16px;
+    }
+    .maygad .container .btn .all{
+        width: 230px;
+        height: 50px;
+    }
+    .maygad{
+        margin-bottom: 100px;
+    }
+    .fresh .container .freshtry .text{
+        padding-top: 25px;
+    }
+    .tred{
+        margin-top: 100px;
+    }
+    .tred .container .parts1 .woman{
+        width: 450px;
+    }
+    .tred .container .parts1 .troy .onkr{
+        font-size: 14px;
+    }
+    .tred .container .parts1 .troy .ras{
+        font-size: 32px;
+    }
+    .tred .container .parts1 .troy .classic{
+        font-size: 16px;
+    }
+    .tred .container .parts1 .troy .data .high{
+        width: 220px;
+    }
+    .tred .container .parts1 .troy .data .datefok{
+        width: 220px;
+    }
+    .tred .container .parts1{
+        padding: 0;
+    }
+    .tred .container .parts1 .troy .cis h2{
+        font-size: 32px;
+    }
+    .tred .container .parts1 .troy .cis .buy{
+        width: 230px;
+        height: 50px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text h3{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss{
+        width: 190px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text1 .photos .photoss .thd{
+        width: 188px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text3 .photos .photoss .thd2{
+        width: 166px;
+        height: 174px;
+        margin-bottom: 17px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text3 .photos .photoss .scnd2{
+        width: 171px;
+        height: 171px;
+        margin-bottom: 17px;
+    }
+    .babytab .container .bebebebebe h2{
+        font-size: 32px;
+    }
+    .babytab .container .bebebebebe h3{
+        font-size: 16px;
+    }
+    .babytab .container .bebebebebe .more{
+        width: 230px;
+        height: 50px;
+    }
+    .babytab .container .bay{
+        width: 450px;
+    }
+    .nomer .container .big{
+        font-size: 32px;
+    }
+    .nomer .container .robot h2{
+        font-size: 12px !important;
+    }
+    .nomer .container .robot h3{
+        font-size: 16px !important;
+    }
+    .nomer .container .robot h4{
+        font-size: 12px !important;
+    }
+    .resepshen .container .resepshen1{
+        font-size: 32px;
+    }
+    .resepshen .container .opisanie{
+        font-size: 13px;
+    }
+    .resepshen .container .naminal {
+        width: calc(100%/1.1);
+    }
+    .resepshen .container .naminal .name input{
+        width: 190px;
+    }
+    .resepshen .container .naminal .tel input{
+        width: 190px;
+    }
+    .resepshen .container .naminal h3{
+        font-size: 12px !important;
+    }
+    .resepshen .container .em h3{
+        font-size: 12px !important;
+    }
+    .resepshen .container .our{
+        font-size: 12px !important;
+    }
+    .resepshen .container .check label{
+        font-size: 12px !important;
+    }
+    .resepshen .container .agree label{
+        font-size: 12px !important;
+    }
+    .resepshen .container .continue{
+        width: 230px;
+        height: 50px;
+    }
+    .konets .container{
+        padding: 0;
+    }
+    .konets .container .pravo na slovo h3{
+        font-size: 10px;
+    }
+    .konets .container .politica a{
+        font-size: 10px;
+    }
+    .konets .container .soglasie{
+        width: calc(100%/6);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header .container{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .header .container .logotype img{
+        width: 69px;
+        height: 13px;
+    }
+    .header .container .portal .portal-click{
+        font-size: 10px !important;
+    }
+    .header .container .portal{
+        width: calc(100%/2.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header .container .portal .portal-click:nth-child(3){
+        margin-right: 0 !important;
+    }
+    .header .container .iocnki{
+        width: calc(100%/4.7);
+    }
+    .vibing .container .fitnes .fitness-platform{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .vibing .container .fitnes .gro{
+        font-size: 15px;
+    }
+    .vibing .container .fitnes .choice{
+        width: 200px;
+        height: 45px;
+    }
+    .vibing .container .woman{
+        width: 292px;
+        height: 240px;
+
+    }
+    .maygad .container{
+        padding: 0;
+    }
+    .maygad .container .vibinar{
+        font-size: 22px;
+    }
+    
+    .maygad .container .vibing .frst{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .frst .woman-yo{
+        height: 150px !important;
+        width: 117px;
+        margin-top: 5px;
+    }
+    .maygad .container .vibing .frst .yo{
+        margin-top: 5px;
+    }
+    .maygad .container .vibing .scnd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .scnd .woman-ras{
+        width: 123px !important;
+        height: 123px !important;
+        margin-top: 10px;
+    }
+    .maygad .container .vibing .scnd .ras{
+        margin-top: 20px;
+    }
+
+    .maygad .container .vibing .thd{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .maygad .container .vibing .thd .woman-hiit{
+        width: 115px !important;
+        height: 155px !important;
+        margin-top: 10px;
+    }
+    .maygad .container .vibing .scnd .ras{
+        margin-top: 20px;
+    }
+    .maygad .container .btn .all{
+        width: 200px;
+        height: 45px;
+    }
+    .fresh .container .freshtry{
+        background-position-x: -520px;
+    }
+    .fresh .container .freshtry .text{
+        padding-left: 10px;
+    }
+    .fresh .container .freshtry .text .freshtrytxt{
+        font-size: 32px;
+    }
+    .fresh .container .freshtry .text .watch{
+        font-size: 16px;
+        margin-bottom: 40px;
+        text-align: startt !important;
+    }
+    .fresh .container .freshtry .text .btntry{
+        width: 240px;
+    }
+    .tred .container .parts1 .woman{
+        width: 280px;
+    }
+    .tred .container .parts1 .troy .onkr{
+        font-size: 12px !important;
+        text-align: startt !important;
+    }
+    .tred .container .parts1 .troy .ras{
+        font-size: 22px !important;
+        
+    }
+    .tred .container .parts1 .troy .classic{
+        font-size: 14px;
+        text-align: startt !important;
+    }
+    .tred .container .parts1 .troy .data .high{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .tred .container .parts1 .troy .data .high h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    .tred .container .parts1 .troy .data .datefok{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .tred .container .parts1 .troy .data .datefok h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    
+    
+    .tred .container .parts1 .troy .cis h2{
+        font-size: 22px;
+    }
+    .tred .container .parts1 .troy .cis .buy{
+        width: 140px;
+        padding: 0;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text h3{
+        font-size: 14px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss{
+        width: 161px;
+        height: 220px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss .thd{
+        background-position-x: 20px !important;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss .frst2{
+        width: 163px;
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss .scnd2{
+        width: 131px
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss .thd2{
+        width: 131px
+    }
+    .tred .container .parts2 .infofit .pepa .line .text .photos .photoss .scnd1{
+        width: 131px
+    }
+    .tred .container .parts2 .infofit label{
+        font-size: 14px;
+    }
+    .babytab{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .babytab .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .babytab .container .bebebebebe h2{
+        font-size: 22px;
+    }
+    .babytab .container .bebebebebe h3{
+        font-size: 14px;
+    }
+    .babytab .container .bebebebebe .more{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .babytab .container .bay{
+        display: flex;
+        justify-content: center;
+        width: 280px;
+    }
+    .babytab .container .bay .womanbabytab{
+        width: 280px;
+        background-position-x: -60px;
+    }
+    .nomer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nomer .container .big{
+        font-size: 22px;
+    }
+    .nomer .container .robot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nomer .container .robot h2,h3,h4{
+        text-align: center !important;
+    }
+    .nomer .container .robot h2{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .resepshen .container{
+        padding-top: 50px;
+    }
+    .resepshen .container .resepshen1{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .resepshen .container .opisanie{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .resepshen .container .naminal{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .resepshen .container .naminal .name{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .naminal .name input{
+        width: 100%;
+    }
+    .resepshen .container .naminal .tel{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .naminal .tel input{
+        width: 100%;
+    }
+    .resepshen .container .em{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .em input{
+        width: 100%;
+    }
+    .resepshen .container .our{
+        display: flex;
+        justify-content: startt;
+    }
+    .resepshen .container .check{
+        display: flex;
+        flex-direction: column;
+        align-items: startt;
+    }
+    .resepshen .container .continue{
+        width: 200px !important;
+    }
+    .konets .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .konets .container .soglasie{
+        width: calc(100%/4);
+    }
+    
+    
+    
+}
+
